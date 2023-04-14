@@ -73,6 +73,7 @@ services:
 
 # the name flag is a hack to change the default prepend folder
 # name when outputting the image names
+
 networks: 
   internal-network:
     driver: bridge
