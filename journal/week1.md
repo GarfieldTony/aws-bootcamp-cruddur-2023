@@ -10,6 +10,11 @@ pip3 install flask
 
 pip3 install flask_cors
 
+gitpod /workspace/aws-bootcamp-cruddur-2023 (week1) $ pyenv versions
+  system
+* 3.11.1 (set by /home/gitpod/.pyenv/version)
+gitpod /workspace/aws-bootcamp-cruddur-2023 (week1) $ pyenv install 3.10
+
 2. Run Python
 
 cd backend-flask
