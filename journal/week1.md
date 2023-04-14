@@ -29,7 +29,9 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
 3. Add frontend Dockerfile
+
 Run command -> npm i
+
 Create a file here: frontend-react-js/Dockerfile
 
 FROM node:16.18
