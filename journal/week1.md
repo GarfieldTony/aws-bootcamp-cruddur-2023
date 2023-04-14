@@ -10,11 +10,6 @@ pip3 install flask
 
 pip3 install flask_cors
 
-gitpod /workspace/aws-bootcamp-cruddur-2023 (week1) $ pyenv versions
-  system
-* 3.11.1 (set by /home/gitpod/.pyenv/version)
-gitpod /workspace/aws-bootcamp-cruddur-2023 (week1) $ pyenv install 3.10
-
 2. Run Python
 
 cd backend-flask
@@ -29,11 +24,12 @@ cd ..
 
 append to the url to /api/activities/home
 you should get back json
+make sure to unlock the port on the port tab
 
 3. Add Dockerfile
 Create a file here: backend-flask/Dockerfile
 
-FROM python:3.11.1-slim-buster
+FROM python:3.10-slim-buster
 
 WORKDIR /backend-flask
 
