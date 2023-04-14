@@ -5,14 +5,21 @@ Containerize Backend
 1. Let's install flask:
 
 cd backend-flask
+
 pip3 install flask
+
 pip3 install flask_cors
 
 2. Run Python
+
 cd backend-flask
+
 export FRONTEND_URL="*"
+
 export BACKEND_URL="*"
+
 python3 -m flask run --host=0.0.0.0 --port=4567
+
 cd ..
 
 append to the url to /api/activities/home
@@ -21,7 +28,7 @@ you should get back json
 3. Add Dockerfile
 Create a file here: backend-flask/Dockerfile
 
-FROM python:3.10-slim-buster
+FROM python:3.11.1-slim-buster
 
 WORKDIR /backend-flask
 
